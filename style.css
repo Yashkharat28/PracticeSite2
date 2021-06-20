@@ -1,0 +1,122 @@
+body{
+    width: 1440px;    
+    background-color: hsl(0, 0%, 95%);
+    padding: 15rem;
+    text-align: left;
+}
+h2{
+    color: hsl(0, 0%, 95%);
+    padding-bottom: 2rem;
+    font-family: 'Big Shoulders Display', cursive;
+}
+p{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca', sans-serif;
+    padding-right: 50px;
+}
+
+img{
+    padding: 3rem;
+    padding-left: 0rem;
+}
+.orange{
+    margin: 0;
+    border: 0;
+    border-radius: 3% 0 0 3%;
+    background-color: hsl(31, 77%, 52%);
+    height: 30rem;
+    width: 20rem;
+    padding-left: 1.8rem;
+    
+}
+.cyan{
+    margin: 0;
+    border: 0;
+    border-radius:  0 0 ;
+    background-color: hsl(184, 100%, 22%);
+    height: 30rem;
+    width: 20rem;
+    padding-left: 1.8rem;
+    
+    
+}
+.dark_cyan{
+    margin: 0;
+    border: 0;
+    border-radius:0 3%   3% 0;
+    background-color: hsl(179, 100%, 13%);
+    height: 30rem;
+    width: 20rem;
+    padding-left: 1.8rem;
+    
+}
+button{
+    margin-top: 3rem;
+    
+}
+
+
+.button_orange {
+    -webkit-border-radius: 30;
+    -moz-border-radius: 30;
+    border-radius: 30px;
+    font-family: Arial;
+    color: hsl(31, 77%, 52%);
+    font-size: 15px;
+    background: #ffffff;
+    padding: 8px 20px 8px 20px;
+    border: solid #ffffff 2px;
+    text-decoration: none;
+  }
+  
+  .button_orange:hover {
+    background: hsl(31, 77%, 52%);
+    text-decoration: none;
+  }
+
+
+  .button_cyan {
+    -webkit-border-radius: 30;
+    -moz-border-radius: 30;
+    border-radius: 30px;
+    font-family: Arial;
+    color: hsl(184, 100%, 22%);
+    font-size: 15px;
+    background: #ffffff;
+    padding: 8px 20px 8px 20px;
+    border: solid #ffffff 2px;
+    text-decoration: none;
+  }
+  
+  .button_cyan:hover {
+    background: hsl(184, 100%, 22%);
+    text-decoration: none;
+  }
+  .button_dark_cyan {
+    -webkit-border-radius: 30;
+    -moz-border-radius: 30;
+    border-radius: 30px;
+    font-family: Arial;
+    color: hsl(179, 100%, 13%);
+    font-size: 15px;
+    background: #ffffff;
+    padding: 8px 20px 8px 20px;
+    border: solid #ffffff 2px;
+    text-decoration: none;
+  }
+  
+  .button_dark_cyan:hover {
+    background: hsl(179, 100%, 13%);
+    text-decoration: none;
+  }
+  @media only screen and (max-width: 600px) {
+    .orange{
+        border-radius: 3% 3% 0 0;
+    }
+    .cyan{
+        border-radius:  0 0;
+    }
+    .dark_cyan{
+        border-radius: 0 0 3% 3% ;
+    }
+  }
