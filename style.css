@@ -109,7 +109,9 @@ button{
     background: hsl(179, 100%, 13%);
     text-decoration: none;
   }
-  @media only screen and (max-width: 1000px) {
+  @media  (max-width: 1000px) {
+      
+    
     .orange{
         border-radius: 3% 3% 0 0;
     }
@@ -120,3 +122,8 @@ button{
         border-radius: 0 0 3% 3% ;
     }
   }
+@media (max-width: 600px){
+    body{
+        width: fit-content;
+    }
+}
